@@ -68,8 +68,8 @@ body {
     font-size: 18px;
     font-family: Raleway;
     line-height: 24.3px;
-    padding-top: 5px;
-    padding-bottom: 7px;
+    margin-top: 5px;
+    margin-bottom: 7px;
 }
 
 .address a {
@@ -206,6 +206,7 @@ h1 .aligned-text {
 .card-link {
     position: relative;
     height: 100%;
+    text-decoration: none;
 }
 
 .card {
@@ -254,10 +255,6 @@ h1 .aligned-text {
     line-height: 120%;
     z-index: 1;
     flex-shrink: 1;
-}
-
-.card-link {
-    text-decoration: none;
 }
 
 .lots__look-more-link {
